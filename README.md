@@ -1,3 +1,2 @@
 # IMU-STM32
-Đọc dữ liệu góc IMU qua UART.
-Sử dụng thư viện Imu_lib.
+Đọc dữ liệu góc IMU qua UART và sử dụng thư viện Imu_lib.
