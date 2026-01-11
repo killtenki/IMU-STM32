@@ -110,7 +110,7 @@ int main(void)
 		else if (enable_read_angle_data == 1){
 			Angle_data();
 			float current_roll = Imu.Roll;
-      float current_pitch = Imu.Pitch;
+     		float current_pitch = Imu.Pitch;
 			float current_yaw = Imu.Yaw;
 			enable_read_angle_data = 0;
 			Demand_angle_data();
@@ -261,3 +261,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
